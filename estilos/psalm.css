@@ -41,10 +41,39 @@ a:hover {
   text-decoration: underline;
 }
 
+section {
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+}
+
 .normal {
   background-color: white;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+}
+
+#img1 {
+  background: black url(../images/pexels-joel-super-188959-954198.jpg) left bottom no-repeat fixed;
+  background-size: cover;
+}
+
+#img1 > p {
+  padding: 30px 20px 30px 20px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: rgba(167, 167, 167, 0.4);
+  color: black;
+}
+
+#img2 {
+  background: black url(../images/pexels-pripicart-518557.jpg) center bottom no-repeat fixed;
+  background-size: cover;
+}
+
+#img2 > p {
+  background-color: rgba(0, 0, 0, 0.60);
+  color: white;
+  padding: 30px 20px 30px 20px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 section > p {
@@ -52,9 +81,11 @@ section > p {
   font-size: 3vw;
   width: 70%;
   padding-left: 10px;
+  margin-bottom: 2em;
 }
 
 footer {
+  font-size: .85em;
   padding: 10px;
   text-align: center;
   background-color: black;
