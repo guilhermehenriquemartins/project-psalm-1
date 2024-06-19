@@ -80,6 +80,18 @@ section {
   border-bottom-right-radius: 100px;
 }
 
+.number {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  font-family: var(--fontetexto);
+  font-size: .7em;
+}
+
 section > p {
   font: normal normal 1em var(--fontetexto);
   font-size: 3vw;
